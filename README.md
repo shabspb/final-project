@@ -1,3 +1,25 @@
+# Pokédex application :dragon_face:
+![https://img.shields.io/badge/React-17.0.1-brightgreen](https://img.shields.io/badge/React-17.0.1-brightgreen)
+
+## Description
+Pokédex app implemented by React.js and bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+## Project setup and run project locally
+1. git clone ...
+2. cd pokedex
+3. npm install
+### Runs the app in the development mode.\
+4. #### `npm run show`  (localhost:3000 and localhost:3001 will start automatically in your default browser) :white_check_mark:
+### Builds the app for production to the `build` folder.\
+5. #### `npm run build`
+6. npm install -g serve
+7. serve -s build
+8. Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+9. json-server --watch db.json --port 3001 (type this command into terminal to run json-server)
+
+#### `npm test` :white_check_mark:
+
+Launches the test runner in the interactive watch mode.\
 # Final project
 
 Это последнее задание в курсе. Дедлайн - **25.11**!

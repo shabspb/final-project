@@ -1,0 +1,32 @@
+.pokemonList {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.card {
+  align-items: center;
+}
+
+.card:nth-child(-n+3) {
+  margin-top: 69px;
+  align-items: center;
+}
+
+.card-header {
+  border-bottom: none;
+  background-color: white;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-img-top {
+  height: 125px;
+  width: 125px;
+}
+
+.btn {
+  display: block;
+  margin: 25px auto;
+}
