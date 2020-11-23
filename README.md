@@ -5,12 +5,12 @@
 Pokédex app implemented by React.js and bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Project setup and run project locally
-1. git clone ...
+1. git clone https://github.com/shabspb/final-project.git
 2. cd pokedex
 3. npm install
-### Runs the app in the development mode.\
+#### Runs the app in the development mode
 4. #### `npm run show`  (localhost:3000 and localhost:3001 will start automatically in your default browser) :white_check_mark:
-### Builds the app for production to the `build` folder.\
+#### Builds the app for production to the `build` folder
 5. #### `npm run build`
 6. npm install -g serve
 7. serve -s build
@@ -19,7 +19,7 @@ Pokédex app implemented by React.js and bootstrapped with [Create React App](ht
 
 #### `npm test` :white_check_mark:
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode
 # Final project
 
 Это последнее задание в курсе. Дедлайн - **25.11**!
