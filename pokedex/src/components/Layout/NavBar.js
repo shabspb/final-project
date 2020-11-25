@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 import logo from './../../logo.png';
 
@@ -11,10 +11,10 @@ export default function NavBar() {
                 <span className="navbar-brand mb-0 h1">Pokédex</span>
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <Link to="/" className="nav-link">All pokémon</Link>
+                        <NavLink exact to="/" className="nav-link" activeClassName="active">All pokémon</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/caught" className="nav-link">Caught pokémon</Link>
+                        <NavLink to="/caught" className="nav-link" activeClassName="active">Caught pokémon</NavLink>
                     </li>
                 </ul>
             </nav>            

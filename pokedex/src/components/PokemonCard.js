@@ -18,7 +18,7 @@ export default class PokemonCard extends Component {
             headers: {
               'Content-Type': 'application/json;charset=utf-8'
             },
-            body: JSON.stringify({name: this.pokemon.name, id: this.pokemon.id, date : new Date()})
+            body: JSON.stringify({name: this.pokemon.name, id: this.pokemon.id, date: new Date()})
           })
           .then(() => this.setState({
               caught: true

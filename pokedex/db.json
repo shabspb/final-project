@@ -2,15 +2,18 @@
   "pokemons": [
     {
       "name": "bulbasaur",
-      "id": 1
+      "id": 1,
+      "date": "2020-11-25T11:27:25.875Z"
     },
     {
       "name": "ivysaur",
-      "id": 2
+      "id": 2,
+      "date": "2020-11-25T11:27:26.545Z"
     },
     {
       "name": "venusaur",
-      "id": 3
+      "id": 3,
+      "date": "2020-11-25T11:27:27.106Z"
     },
     {
       "name": "charmander",
